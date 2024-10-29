@@ -4,12 +4,190 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <!--Font from fontawesome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href ="style.css">
+    <title>Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,600;1,400;1,500;1,600&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!---header design-->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+
+            <button class="hello">Say hello</button>
+        </nav>
+    </header>
+
+    <!--home section design-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, my name is</h1>
+            <h1>Domingo Monius</h1>
+            <h1>I am a <span>Software Developer</span> </h1>
+            <div class="social-media">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a >
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <a href="#" class="btn">Download CV</a>
     
+        </div>
+        
+    </section>
+
+    <!--About section design-->
+    <section class="about" id="about">
+            <div class="about-img">
+                <img src="images/mingos.jpg" alt="">
+            </div>
+    
+    
+            <div class="about-content">
+                <h2 class="heading">ABOUT <span>Me</span></h2>
+                <h3>Software Developer</h3>
+                <p>test test test test test test test </p>
+                <a href="#" class="btn">Read more</a>
+    
+            </div>
+    </section>
+
+    <!--About section design-->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Web Development</h3>
+                <p>High quality websites that look and feel good</p>
+                <a href="#">Read More</a>
+            </div>
+
+            <div class="services-box">
+                    <i class="fa-solid fa-palette"></i>
+                    <h3>UI/UX Design</h3>
+                    <p>High quality websites that look and feel good</p>
+                    <a href="#">Read More</a>
+            </div>
+
+            <div class="services-box">
+                    <i class="fa-brands fa-android"></i>
+                    <h3>Android Development</h3>
+                    <p>High quality websites that look and feel good</p>
+                    <a href="#">Read More</a>
+            </div>
+
+        </div>
+    </section>
+  
+      <!--Portfolio  section design-->
+      <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest<span> Projects</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/1.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>this my portfolio test test tsetststsgsygfggfjgsfggjsfgf grwrr rw rrrrwr </p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/2.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>this my portfolio test test tsetststsgsygfggfjgsfggjsfgf grwrr rw rrrrwr </p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/3.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>this my portfolio test test tsetststsgsygfggfjgsfggjsfgf grwrr rw rrrrwr </p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/4.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>this my portfolio test test tsetststsgsygfggfjgsfggjsfgf grwrr rw rrrrwr </p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/5.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>this my portfolio test test tsetststsgsygfggfjgsfggjsfgf grwrr rw rrrrwr </p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/6.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>this my portfolio test test tsetststsgsygfggfjgsfggjsfgf grwrr rw rrrrwr </p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+
+        </div>
+           
+      </section>
+
+      <!--Contact  section design-->
+      <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="email" placeholder="Email subject">
+            </div>
+            <textarea name="" id="" cols="30" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send message" class ="btn">
+        </form>
+      </section>
+
+      <!--Footer design-->
+      <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 |All Rights reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+      </footer>
+
+       <!--MAIN JS-->
+
+    <script  src="JS/main.js"></script>
 </body>
 </html>
